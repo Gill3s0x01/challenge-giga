@@ -1,0 +1,7 @@
+{
+  "name": "desafio-giga",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
