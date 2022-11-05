@@ -1,0 +1,82 @@
+.button-users {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 285px;
+  height: 70px;
+  text-decoration: none;
+  border: solid 1px transparent;
+  border-radius: 35px;
+  background-color: #c3c3c3;
+  box-shadow: 7px 0px 10px -8px rgba(0, 0, 0, 0.1);
+  font-family: "Roboto", sans-serif;
+  &:hover {
+    border: solid 1px var(--ion-color-primary);
+  }
+  @media screen and (min-width: 768px) {
+    border-radius: 10px;
+    height: 180px;
+    width: 490px;
+    flex-direction: column;
+    background-color: #d1d1d1;
+  }
+}
+.list-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+
+  @media screen and (min-width: 768px) {
+    align-items: center;
+  }
+}
+.wrapper-item {
+  margin-top: 30px;
+  padding: 5px 5px;
+}
+.header-list {
+  text-transform: capitalize;
+}
+.label-users {
+  margin-left: 10px;
+}
+.name-users {
+  display: flex;
+  justify-content: flex-start;
+  color: #0e0a0a;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  @media screen and (min-width: 768px) {
+    margin-top: 60px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    justify-content: center;
+    font-size: 1.2rem;
+  }
+}
+.email-users {
+  display: flex;
+  justify-content: flex-start;
+  color: #0e0a0a;
+  font-family: "Lucida Sans", sans-serif;
+  font-weight: 400;
+  font-size: 0.72rem;
+  @media screen and (min-width: 768px) {
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+}
+.image-users {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: auto;
+  @media screen and (min-width: 768px) {
+    display: block;
+    margin-top: 20px;
+    height: 90px;
+    width: auto;
+  }
+}

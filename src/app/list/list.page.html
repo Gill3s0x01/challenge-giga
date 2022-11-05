@@ -1,0 +1,45 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title> Lista </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Lista</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <ion-list-header class="header-list">
+      <b>GIGA Sistemas</b>
+    </ion-list-header>
+    <div class="border-wrapper">
+      <i class="title-page">Conheça alguns dos nossos usuários</i>
+    </div>
+    <div class="wrapper-user-detail" *ngIf="selectedItem">
+      <div class="image-div-detail">
+        <img
+          class="image-detail"
+          alt="Silhouette of a person's head"
+          src="{{ selectedItem.picture.large }}"
+        />
+      </div>
+      <div class="descriprion-user-detail">
+        <h4>Nome:<span>{{selectedItem.name.first}}</span></h4>
+        <h5>Telefone:<span>{{selectedItem.phone}}</span></h5>
+        <p>Naturalidade:<span>{{selectedItem.nat}}</span></p>
+        <p>Idade:<span>{{selectedItem.dob.age}}</span></p>
+      </div>
+    </div>
+  </div>
+  <div class="flow-scroll">
+    <ion-list id="labels-list" class="list-item">
+      <app-item-list
+        [itemUser]="users"
+        (selectItem)="selectedItem = $event"
+      ></app-item-list>
+    </ion-list>
+  </div>
+</ion-content>

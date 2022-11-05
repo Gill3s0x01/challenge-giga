@@ -1,0 +1,20 @@
+<ion-modal [isOpen]="isModalOpen">
+  <ng-template>
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Modal</ion-title>
+        <ion-buttons slot="end">
+          <ion-button (click)="closeModel()">Close</ion-button>
+        </ion-buttons>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content class="ion-padding">
+      <div>
+        <h3>{{ user.name.first + user.name.last }}</h3>
+        <h5>{{ user.email }}</h5>
+        <h5>{{ user.gender }}</h5>
+        <h5>{{ user.dob.age }}</h5>
+      </div>
+    </ion-content>
+  </ng-template>
+</ion-modal>

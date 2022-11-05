@@ -1,0 +1,22 @@
+<ion-item class="wrapper-item" *ngFor="let user of itemUser">
+  <div class="button-users" (click)="onClickInChild(user)">
+    <!-- <button class="button-users" [routerLink]="['/detail']"> -->
+    <ion-avatar slot="start">
+      <img
+        class="image-users"
+        alt="Silhouette of a person's head"
+        src="{{ user.picture.large }}"
+      />
+    </ion-avatar>
+    <ion-label class="label-users">
+      <h2 class="name-users">
+        {{ user.name.first + " " + user.name.last }}
+      </h2>
+      <p class="email-users">{{ user.email }}</p>
+      <p class="email-users">Idade: {{ user.dob.age }}</p>
+      <!-- <h2 class="name-users">Felipe Torres</h2>
+   <p class="email-users">felipe.torres@example.com</p> -->
+    </ion-label>
+    <!-- <a href="javascript:;" class="btn btn-primary" (click)="selectItem(u)">+ Amigo</a> -->
+  </div>
+</ion-item>
