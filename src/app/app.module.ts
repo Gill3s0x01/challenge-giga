@@ -7,12 +7,9 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ModalUserDetailComponent } from './modal-user-detail/modal-user-detail.component';
 
 @NgModule({
-  declarations: [	AppComponent,
-      ModalUserDetailComponent
-   ],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     IonicModule.forRoot(),
