@@ -1,11 +1,10 @@
 import { IonicModule } from '@ionic/angular';
-import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { ListPage } from './list.page';
+import { FemalePage } from './female.page';
 
-import { ListPageRoutingModule } from './list-routing.module';
+import { FemalePageRoutingModule } from './female-routing.module';
 import { ItemListComponentModule } from '../item-list/item-list.module';
 
 @NgModule({
@@ -14,8 +13,9 @@ import { ItemListComponentModule } from '../item-list/item-list.module';
     CommonModule,
     FormsModule,
     ItemListComponentModule,
-    ListPageRoutingModule,
+
+    FemalePageRoutingModule,
   ],
-  declarations: [ListPage],
+  declarations: [FemalePage],
 })
-export class ListPageModule {}
+export class FemalePageModule {}

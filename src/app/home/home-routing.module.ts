@@ -12,16 +12,16 @@ const routes: Routes = [
         loadChildren: () =>
           import('../list/list.module').then((m) => m.ListPageModule),
       },
-      // {
-      //   path: 'female',
-      //   loadChildren: () =>
-      //     import('../female/female.module').then((m) => m.FemalePageModule),
-      // },
-      // {
-      //   path: 'male',
-      //   loadChildren: () =>
-      //     import('../male/male.module').then((m) => m.MalePageModule),
-      // },
+      {
+        path: 'female',
+        loadChildren: () =>
+          import('../female/female.module').then((m) => m.FemalePageModule),
+      },
+      {
+        path: 'male',
+        loadChildren: () =>
+          import('../male/male.module').then((m) => m.MalePageModule),
+      },
       {
         path: '',
         redirectTo: '/list',
