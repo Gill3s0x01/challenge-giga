@@ -5,7 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { MalePage } from './male.page';
 
 import { MalePageRoutingModule } from './male-routing.module';
-import { ItemListComponentModule } from '../item-list/item-list.module';
+import { ItemListComponentModule } from '../components/item-list/item-list.module';
 
 @NgModule({
   imports: [

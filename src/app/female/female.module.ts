@@ -5,7 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { FemalePage } from './female.page';
 
 import { FemalePageRoutingModule } from './female-routing.module';
-import { ItemListComponentModule } from '../item-list/item-list.module';
+import { ItemListComponentModule } from '../components/item-list/item-list.module';
 
 @NgModule({
   imports: [

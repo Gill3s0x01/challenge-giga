@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
-import { IUser } from '../models/user-models';
+import { IUser } from '../../models/user-models';
 
 @Component({
   selector: 'app-item-list',
