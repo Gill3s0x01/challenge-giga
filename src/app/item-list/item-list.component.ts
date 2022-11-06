@@ -15,6 +15,5 @@ export class ItemListComponent implements OnInit {
 
   onClickInChild(user: IUser) {
     this.selectItem.emit(user);
-    console.log('clicou');
   }
 }

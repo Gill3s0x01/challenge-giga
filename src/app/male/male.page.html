@@ -18,6 +18,7 @@
     <div class="border-wrapper">
       <i class="title-page">Esse é o nosso time masculino</i>
     </div>
+
     <div class="wrapper-user-detail" *ngIf="selectedItem">
       <div class="image-div-detail">
         <img
@@ -31,15 +32,24 @@
         <p>Telefone:<span>{{selectedItem.phone}}</span></p>
         <p>Naturalidade:<span>{{selectedItem.nat}}</span></p>
         <p>Idade:<span>{{selectedItem.dob.age}}</span></p>
+        <p>Genero:<span>{{selectedItem.gender}}</span></p>
       </div>
     </div>
   </div>
+
   <div class="flow-scroll">
-    <!-- <ion-list id="labels-list" class="list-item"> -->
-    <app-item-list
-      [itemUser]="users"
-      (selectItem)="selectedItem = $event"
-    ></app-item-list>
-    <!-- </ion-list> -->
+    <ion-infinite-scroll threshold="100px" (ionInfinite)="loadData($event)">
+      <ion-infinite-scroll-content
+        loadingSpinner="bubbles"
+        loadingText="Aguarde..."
+      >
+      </ion-infinite-scroll-content>
+    </ion-infinite-scroll>
+    <ion-list id="labels-list">
+      <app-item-list
+        [itemUser]="users"
+        (selectItem)="selectedItem = $event"
+      ></app-item-list>
+    </ion-list>
   </div>
 </ion-content>

@@ -10,14 +10,14 @@ export class ApiService {
   URL = 'http://randomuser.me/api/';
   constructor(private http: HttpClient) {}
 
-  public getAll(): Observable<any> {
-    return this.http.get(`${this.URL}/?page=1&results=20`);
+  public getAll(page: number): Observable<any> {
+    return this.http.get(`${this.URL}/?results=20&?page=` + page);
   }
 
-  public getWoman(): Observable<any> {
-    return this.http.get(`${this.URL}/?gender=female&?page=1&results=20`);
+  public getWoman(page: number): Observable<any> {
+    return this.http.get(`${this.URL}/?gender=female&results=20&?page=` + page);
   }
-  public getMen(): Observable<any> {
-    return this.http.get(`${this.URL}/?gender=male&?page=1&results=20`);
+  public getMen(page: number): Observable<any> {
+    return this.http.get(`${this.URL}/?gender=male&&results=20&?page=` + page);
   }
 }
