@@ -19,7 +19,6 @@ export class ListPage implements OnInit {
 
   loadData(event) {
     setTimeout(() => {
-      console.log('Done');
       this.getUsers(2);
       if (this.users.length === 20) {
         event.target.disabled = true;

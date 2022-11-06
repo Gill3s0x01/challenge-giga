@@ -20,7 +20,6 @@ export class MalePage implements OnInit {
   loadData(event) {
     setTimeout(() => {
       this.getUsers(2);
-      console.log('Done');
       if (this.users.length === 20) {
         event.target.disabled = true;
       }
