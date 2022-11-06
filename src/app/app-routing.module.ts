@@ -7,6 +7,11 @@ const routes: Routes = [
     loadChildren: () =>
       import('./home/home.module').then((m) => m.HomePageModule),
   },
+  {
+    path: 'splash',
+    loadChildren: () =>
+      import('./splash/splash-page.module').then((m) => m.SplashPageModule),
+  },
 ];
 @NgModule({
   imports: [

@@ -19,12 +19,12 @@ export class IUser {
 }
 
 export class IDob {
-  age?: number;
-  date?: string;
+  public age?: number;
+  public date?: string;
 }
 export class IId {
-  name?: string;
-  value?: string;
+  public name?: string;
+  public value?: string;
 }
 
 export class IName {

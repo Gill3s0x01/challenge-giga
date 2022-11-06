@@ -24,7 +24,7 @@ export class MalePage implements OnInit {
         event.target.disabled = true;
       }
       event.target.complete();
-    }, 100);
+    }, 2000);
   }
 
   getUsers(page: number) {
