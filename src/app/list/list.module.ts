@@ -7,12 +7,14 @@ import { ListPage } from './list.page';
 
 import { ListPageRoutingModule } from './list-routing.module';
 import { ItemListComponentModule } from '../components/item-list/item-list.module';
+import { TranslateModule } from '@ngx-translate/core';
 
 @NgModule({
   imports: [
     IonicModule,
     CommonModule,
     FormsModule,
+    TranslateModule,
     ItemListComponentModule,
     ListPageRoutingModule,
   ],

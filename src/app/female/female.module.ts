@@ -6,12 +6,14 @@ import { FemalePage } from './female.page';
 
 import { FemalePageRoutingModule } from './female-routing.module';
 import { ItemListComponentModule } from '../components/item-list/item-list.module';
+import { TranslateModule } from '@ngx-translate/core';
 
 @NgModule({
   imports: [
     IonicModule,
     CommonModule,
     FormsModule,
+    TranslateModule,
     ItemListComponentModule,
 
     FemalePageRoutingModule,

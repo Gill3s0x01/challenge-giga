@@ -1,22 +1,22 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title> Feminino </ion-title>
+    <ion-title>{{"MALE" | translate}}</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Lista</ion-title>
+      <ion-title size="large">{{"LIST" | translate}}</ion-title>
     </ion-toolbar>
   </ion-header>
 
   <div id="container">
     <ion-list-header class="header-list">
-      <b>GIGA Sistemas</b>
+      <b>GIGA Services</b>
     </ion-list-header>
     <div class="border-wrapper">
-      <i class="title-page">Esse é o nosso time masculino</i>
+      <i class="title-page">{{"TEAM" | translate}}</i>
     </div>
 
     <div class="wrapper-user-detail" *ngIf="selectedItem">
@@ -28,11 +28,15 @@
         />
       </div>
       <div class="descriprion-user-detail">
-        <p>Nome:<span>{{selectedItem.name.first}}</span></p>
-        <p>Telefone:<span>{{selectedItem.phone}}</span></p>
-        <p>Naturalidade:<span>{{selectedItem.nat}}</span></p>
-        <p>Idade:<span>{{selectedItem.dob.age}}</span></p>
-        <p>Genero:<span>{{selectedItem.gender}}</span></p>
+        <p>{{"NAME" | translate}}<span>{{selectedItem.name.first}}</span></p>
+        <p>{{"TELEPHONE" | translate}}<span>{{selectedItem.phone}}</span></p>
+        <p>{{"NATURALNESS" | translate}}<span>{{selectedItem.nat}}</span></p>
+        <p>{{"AGE" | translate}}<span>{{selectedItem.dob.age}}</span></p>
+        <p>
+          {{"GENDER" | translate}}<span
+            >{{selectedItem.gender | translate}}</span
+          >
+        </p>
       </div>
     </div>
   </div>
