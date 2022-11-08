@@ -8,8 +8,7 @@
    <a href="https://www.linkedin.com/in/lorison-gilles/">
       <img alt="Lorison Gilles" src="https://img.shields.io/badge/-LorisonGilles-8257E5?style=flat&logo=Linkedin&logoColor=white" />
    </a>
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Gilles30/challenge-giga
-?color=774DD6">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Gilles30/challenge-giga?color=774DD6">
 
 <a href="https://github.com/Gilles30/challenge-giga/commits/master">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Gilles30/challenge-giga?color=774DD6">
