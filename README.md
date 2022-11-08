@@ -100,11 +100,11 @@
 ### Mobile Screenshot
 
 <div align="center">
-  <img src="./public/splash.jpg" alt="mobile"     widht="300px"/>
+  <img src="./public/splash.jpg" alt="splash"     widht="300px"/>
   </br></br>
-   <img src="./public/page-list.jpg" alt="mobile"     widht="300px"/>
+   <img src="./public/page-list.jpg" alt="page-list"     widht="300px"/>
    </br></br>
-   <img src="./public/gender-list.jpg" alt="mobile"     widht="300px"/>
+   <img src="./public/gender-list.jpg" alt="gender-list"     widht="300px"/>
    </br></br>
    <img src="./public/gender-1-list.jpg" alt="mobile"     widht="300px"/>
 </div>
