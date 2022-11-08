@@ -15,12 +15,12 @@ export class AppComponent {
     private translateService: TranslateService
   ) {
     this.translateService.setDefaultLang('portugues');
-    this.initializeApp();
+    // this.initializeApp();
   }
 
-  initializeApp() {
-    this.platform.ready().then(() => {
-      this.router.navigateByUrl('splash');
-    });
-  }
+  // initializeApp() {
+  //   this.platform.ready().then(() => {
+  //     this.router.navigateByUrl('splash');
+  //   });
+  // }
 }
