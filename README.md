@@ -115,6 +115,7 @@ You can acess the website at:
 👉 demo:
 
   <img src=".github/animation.gif" alt="mobile"     widht="300px"/>
+  
 # :computer: Technologies
 
 This project was made using the follow technologies:
