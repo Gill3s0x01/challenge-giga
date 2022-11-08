@@ -1,7 +1,7 @@
 <p align="center">  GIGA Service 🚀</p>
 
 <p align="center">
-   <img src="./src/.github/logo.png" alt="logo" width="180px"/>
+   <img src="./.github/logo.png" alt="logo" width="180px"/>
 </p>
 
 <p align="center">	
@@ -100,13 +100,13 @@
 ### Mobile Screenshot
 
 <div align="center">
-  <img src="./public/splash.jpg" alt="splash"     widht="300px"/>
+  <img src=".github/splash.jpg" alt="splash"     widht="300px"/>
   </br></br>
-   <img src="./public/page-list.jpg" alt="page-list"     widht="300px"/>
+   <img src=".github/page-list.jpg" alt="page-list"     widht="300px"/>
    </br></br>
-   <img src="./public/gender-list.jpg" alt="gender-list"     widht="300px"/>
+   <img src=".github/gender-list.jpg" alt="gender-list"     widht="300px"/>
    </br></br>
-   <img src="./public/gender-1-list.jpg" alt="mobile"     widht="300px"/>
+   <img src=".github/gender-1-list.jpg" alt="mobile"     widht="300px"/>
 </div>
 
 # :eyes: Demo Website
