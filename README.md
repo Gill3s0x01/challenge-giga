@@ -64,24 +64,21 @@
 </br>
 
 <div align="center">
-   <img src="./public/mks-web.jpg" width="950px">
+
    <p>
     A users page, where we can see the listing by genres.
       We can list different genres through the tabs of the pages.
    </p>
-   </br></br>
-   <img src="./public/mks-dark-desktop.jpg" width="950px">
+   </br>
    </br></br>
    <p>
     I created an internationalization of the items, being possible, add a switch with the chosen countries, later.
    </p>
-   </br></br>
-   <img src="./public/mks-notification.jpg" width="950px">
+
    <p>
     By clicking on the user we can see his detail just above the page
    </p>
-   </br></br>
-   <img src="./public/blur-cart.jpg" width="950px">
+   </br>
    <p>
     I chose the possibility of having three pages with a completely different layout, if allowed, greater freedom of UX and UI in the development 
    </p>
@@ -93,7 +90,7 @@
 
  <h3>Soluções implementadas</h3>
  </br>
- <p>O projeto foi criado do zero, onde foi surgindo algumas possibilidades de melhorias, e uma que implementei foi a internacionalização do app, onde apliquei as configurações do i18n, deixando o projeto pronto para implementar o botão de troca de idioma.
+ <p>O projeto foi criado do zero, onde foi surgindo algumas possibilidades de melhorias, e uma que implementei foi a internacionalização do app, onde apliquei as configurações do i18n, deixando o projeto pronto para implementar o botão de troca de idioma. Foi implementado uma animação em uma tela como splashscreen.
  </p>
  </br></br>
  <h3>Dificuldade e Desafios</h3>
@@ -103,11 +100,13 @@
 ### Mobile Screenshot
 
 <div align="center">
-  <img src="./public/mobile.jpg" alt="mobile"     widht="300px"/>
+  <img src="./public/splash.jpg" alt="mobile"     widht="300px"/>
   </br></br>
-   <img src="./public/mobile-dark.jpg" alt="mobile"     widht="300px"/>
+   <img src="./public/page-list.jpg" alt="mobile"     widht="300px"/>
    </br></br>
-   <img src="./public/mobile-cart.jpg" alt="mobile"     widht="300px"/>
+   <img src="./public/gender-list.jpg" alt="mobile"     widht="300px"/>
+   </br></br>
+   <img src="./public/gender-1-list.jpg" alt="mobile"     widht="300px"/>
 </div>
 
 # :eyes: Demo Website
