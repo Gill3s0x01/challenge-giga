@@ -3,7 +3,7 @@
     <name>desafio-giga</name>
     <description>App criado com cordova e ionic.</description>
     <author email="hi@ionicframework.com" href="http://ionicframework.com/">Gilles256</author>
-    <content src="index.html" />
+    <content src="./index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
